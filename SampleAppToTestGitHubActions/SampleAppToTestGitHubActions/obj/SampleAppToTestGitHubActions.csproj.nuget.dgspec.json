@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Code\\Test\\GitHubTesting\\SampleAppToTestGitHubActions\\SampleAppToTestGitHubActions\\SampleAppToTestGitHubActions.csproj": {}
+  },
+  "projects": {
+    "C:\\Code\\Test\\GitHubTesting\\SampleAppToTestGitHubActions\\SampleAppToTestGitHubActions\\SampleAppToTestGitHubActions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Code\\Test\\GitHubTesting\\SampleAppToTestGitHubActions\\SampleAppToTestGitHubActions\\SampleAppToTestGitHubActions.csproj",
+        "projectName": "SampleAppToTestGitHubActions",
+        "projectPath": "C:\\Code\\Test\\GitHubTesting\\SampleAppToTestGitHubActions\\SampleAppToTestGitHubActions\\SampleAppToTestGitHubActions.csproj",
+        "packagesPath": "C:\\Users\\D3X213\\.nuget\\packages\\",
+        "outputPath": "C:\\Code\\Test\\GitHubTesting\\SampleAppToTestGitHubActions\\SampleAppToTestGitHubActions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\D3X213\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Code\\NugetLocal": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.pnnl.gov/artifactory/api/nuget/nuget-pnnl-release": {},
+          "https://artifactory.pnnl.gov/artifactory/api/nuget/nuget-pnnl-snapshot": {},
+          "https://nuget.pnnl.gov/artifactory/api/nuget/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
